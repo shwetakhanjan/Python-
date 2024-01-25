@@ -5,7 +5,7 @@
 #   BackEnd
 '''
 This program is an example of OOP where there are two files, BackEnd(this one) which contains Data class which reads in different files, 'Co2.html' containing 
-yearly values of Co2 emossion levels for every month of the years 1951 through 2019, and another file 'Temperature.html' that contains average temperature data for the years 1850 
+yearly values of Co2 emission levels for every month of the years 1951 through 2019, and another file 'Temperature.html' that contains average temperature data for the years 1850 
 through 2018.
 This file contains methods for reading the data,storing the temperature values in a default dictionary, average CO2 emission levels in a named tuple and yearly data in 
 a default dictionary with year,temp and CO2 values. It also contains a method for a generator to yield the yearly values.
