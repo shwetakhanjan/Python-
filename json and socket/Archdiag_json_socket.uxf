@@ -1,0 +1,73 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>660</x><y>260</y><w>210</w><h>190</h></coordinates><panel_attributes>
+class Server
+
+--
+
+host
+port
+server_socket
+server_socket.bind(host,port)
+
+--
+connect()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>0</y><w>210</w><h>120</h></coordinates><panel_attributes>
+class  GUI
+
+--
+ mplotlibObj : Mplotlib object
+--
+mplotlibObj    displayGraph()
+main()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>597</y><w>210</w><h>160</h></coordinates><panel_attributes>
+class Getdata
+
+--
+
+jsonString  : string
+
+--
+
+json string       xmlToJson(xml  string)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>340</y><w>160</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>310</y><w>210</w><h>200</h></coordinates><panel_attributes>class Datatable
+
+--
+
+sqliteObj : SQLite database object
+
+data : string
+
+--
+
+Boolean      createTable ()
+
+Boolean      insertTable()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>250</y><w>210</w><h>170</h></coordinates><panel_attributes>
+class Mplotlib
+
+--
+
+sqlitedbase . fetchData() : string          
+this.dataList :  list&lt;tuples&gt;
+
+--
+
+xy plot  graphData( list,list)
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>322</x><y>260</y><w>210</w><h>190</h></coordinates><panel_attributes>
+class Client
+
+--
+
+host
+port
+client_socket
+client_socket.connect
+
+--
+
+connect()
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1180</x><y>500</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1000</x><y>540</y><w>140</w><h>30</h></coordinates><panel_attributes>Dependency</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>360</y><w>240</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>220;10;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>910</x><y>300</y><w>140</w><h>30</h></coordinates><panel_attributes>Dependency</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>20</x><y>180</y><w>140</w><h>50</h></coordinates><panel_attributes>
+    Realisation</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>110</y><w>40</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>20;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>110</y><w>90</w><h>170</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>70;150;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>400</x><y>180</y><w>140</w><h>50</h></coordinates><panel_attributes>
+ Dependency</panel_attributes><additional_attributes></additional_attributes></element></diagram>
