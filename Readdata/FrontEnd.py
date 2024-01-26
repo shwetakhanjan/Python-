@@ -4,8 +4,8 @@
 # FrontEnd or the user interface
 
 '''
-This program is an example of OOP where there are two files, FrontEnd(this one) which contains Printdata class from BackEnd import Data class from BackEnd  
-This file prints data for yearly values of Co2 emission levels for every month of the years 1951 through 2019 and average temperature data for the same.
+This program is an example of OOP where there are two files, FrontEnd(this one) which contains Printdata class. It imports Data class from BackEnd.py 
+to print data for yearly values of Co2 emission levels for every month of the years 1951 through 2019 and average temperature data for the same.
  
 This file contains methods for printing  the data,for average CO2 emission levels stored in a dictionary,using a named tuple.
 
