@@ -4,11 +4,14 @@
 Languages of the world. 
 
 # Description 
-A study in Object Oriented Programming to print to files the names and total number of countries in the database, names and total number of languages.It prints to program the list of the most common languages, all languages from the chosen countries and the common language among the chosen countries.
+The application is in 2 files: language.py and lab4.py. 
+Data for the project is contained in lab3.txt file.
+
+This is a study in Object Oriented Programming(OOP) to print to files the names and total number of countries in the database, names and total number of languages.It prints to program the list of the most common languages, all languages from the chosen countries and the common language among the chosen countries.
   
 
 It uses the concepts of Classes(Superclass and subclass), methods, inheritance, and review of iterables and exception handling.
-## Documentation
+# Documentation
 
 The application will be in 2 files: language.py and lab4.py. 
 Data for the project is contained in lab3.txt file.
@@ -76,11 +79,11 @@ Main aim of the program is to show
 Exceptions have been handled in this language.py file and we can see the results while calling the methods in lab4.py file.
 
 Finally, a comparison of languages of countries is made based on user input.
-## Acknowledgements
+# Acknowledgements
 
 I must acknowledge my professor from community college, where I obtained a 3-quarter long certification in Python, for providing me the opportunity to do this lab, as a part of my coursework. 
 The data source is the file "lab3.txt", provided by my professor. For the sake of anonymity and to prevent instances of plagiarism, I am keeping names confidential.
-## Running Tests
+# Running Tests
 
 To run tests, we need to run the file lab4.py. This file works in conjunction with file language.py that contains superclasses and subclasses as mentioned above. Invoking the classes to produce their instances, using inheritance and methods from these super and subclasses, along with exception handling, proper choice of instance variables and local variables are key to proper functioning of this program.
 
