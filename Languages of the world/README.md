@@ -14,7 +14,7 @@ It uses the concepts of Classes(Superclass and subclass), methods, inheritance, 
 # Documentation
 
 The application will be in 2 files: language.py and lab4.py. 
-Data for the project is contained in lab3.txt file.
+Data for the project is contained in lab3.txt file.The question/expectations out of this program are outline din the file lab4.docx
 
 Lab4.py:
 
